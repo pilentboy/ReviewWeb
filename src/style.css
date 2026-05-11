@@ -1,2 +1,24 @@
 @import "tailwindcss";
 
+@theme {
+  --font-vazir-md: "vazir_md", sans-serif;
+  --font-vazir-default: "vazir", sans-serif;
+  --font-vazir-thin: "vazir_thin", sans-serif;
+}
+
+/*  custom fonts */
+@font-face {
+  font-family: "vazir_md";
+  src: url("/assets/font/Vazir-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "vazir";
+  src: url("/assets/font/Vazir.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "vazir_thin";
+  src: url("/assets/font/Vazir-Thin.woff2") format("woff2");
+  font-display: swap;
+}
