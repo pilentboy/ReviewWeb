@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>فیلیمومدرسه | آموزش تعاملی به شیوه نو | فیلیمو مدرسه</title>
   </head>
-  <body class="container mx-auto">
+  <body class="mx-auto">
     <header
-      class=" w-full h-30 px-4  flex items-center justify-between"
+      class="w-full h-15 md:h-25 px-4 md:px-20 flex items-center justify-between"
     >
       <!-- menu button -->
       <button class="cursor-pointer">
@@ -17,7 +17,11 @@
       </button>
       <!-- center logo -->
       <a href="#">
-        <img src="/icon/filimo-full-logo.svg" alt="filimo" />
+        <img
+          src="/icon/filimo-full-logo.svg"
+          class="w-37 sm:w-auto"
+          alt="filimo"
+        />
       </a>
       <!-- login -->
       <a href="#" class="flex font-vazir-md items-center justify-center gap-1">
@@ -25,6 +29,34 @@
         <img src="/icon/login.svg" alt="login" class="rotate-y-180" />
       </a>
     </header>
+    <main>
+      <section
+        class="w-full bg-linear-to-b from-orange-200 to-white h-fit sm:h-100 flex items-center justify-center"
+      >
+        <div
+          class="h-3/4 overflow-hidden sm:rounded-2xl relative"
+          id="intro_video"
+        >
+          <video
+            class="w-full h-full"
+            id="intro-video"
+            autoplay
+            muted
+            loop
+            playsinline
+          >
+            <source src="/video/intro-summer-3-480p-30.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+      <a
+        href="#"
+        class="w-80 h-12 mx-auto rounded-lg hidden font-vazir-md  items-center justify-center gap-1 bg-green-300 border-b-5 border-b-green-500 text-[#444444] hover:border-b-1 duration-200 sm:flex"
+      >
+        <!-- <img src="/icon/login.svg" alt="login" class="rotate-y-180" /> -->
+        ورود به فیلیمو مدرسه
+      </a>
+    </main>
     <script src="src/main.ts"></script>
   </body>
 </html>

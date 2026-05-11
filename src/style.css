@@ -13,16 +13,16 @@ html {
 /*  custom fonts */
 @font-face {
   font-family: "vazir_md";
-  src: url("/assets/font/Vazir-Medium.woff2") format("woff2");
+  src: url("/font/Vazir-Medium.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "vazir";
-  src: url("/assets/font/Vazir.woff2") format("woff2");
+  src: url("/font/Vazir.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "vazir_thin";
-  src: url("/assets/font/Vazir-Thin.woff2") format("woff2");
+  src: url("/font/Vazir-Thin.woff2") format("woff2");
   font-display: swap;
 }
