@@ -6,6 +6,10 @@
   --font-vazir-thin: "vazir_thin", sans-serif;
 }
 
+body,
+html {
+  font-family: "vazir";
+}
 /*  custom fonts */
 @font-face {
   font-family: "vazir_md";
