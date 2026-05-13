@@ -26,3 +26,22 @@ html {
   src: url("/font/Vazir-Thin.woff2") format("woff2");
   font-display: swap;
 }
+
+.test {
+  animation-name: moving-books;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+.test2 {
+  animation-delay: 2000ms !important;
+}
+@keyframes moving-books {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-250%);
+  }
+}
